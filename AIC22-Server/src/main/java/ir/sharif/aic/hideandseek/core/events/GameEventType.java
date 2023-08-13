@@ -1,0 +1,12 @@
+package ir.sharif.aic.hideandseek.core.events;
+
+public enum GameEventType {
+  READINESS_DECLARATION,
+  STATUS_CHANGE,
+  TURN_CHANGE,
+  AGENT_MOVEMENT,
+  POLICES_CAUGHT_THIEVES,
+  AGENT_BALANCE_CHARGED,
+  GAME_RESULT_CHANGED,
+  AGENT_SEND_MESSAGE
+}
